@@ -1,0 +1,258 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+body {
+    background-image: url(../imagenes/fondo1.jpg)
+}
+
+header {
+    display: block;
+    background-color: white;
+    position: sticky;
+    top: 0;
+    width: 100%;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+}
+
+.navbar__list {
+    display: flex;
+    gap: 10px;
+    padding: 10px;
+    margin-left: auto
+}
+
+
+.nombre {
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    font-size: 40px;
+    color: rgb(212, 105, 105);
+    border: 2px solid rgb(245, 175, 175);
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+    background-color: rgba(255, 255, 255, 0.8);
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.section__introduccion {
+    display: flex;
+}
+
+.introduccion {
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 5px solid rgb(72, 103, 93);
+    margin-top: 20px;
+    margin-left: 10px;
+    margin-right: 10%;
+    margin-bottom: 20rem;
+    width: 50%;
+}
+
+.introduccion__titulo {
+    margin-left: 3%;
+    margin-bottom: 3%;
+}
+
+.introduccion__parrafo {
+    margin-left: 3%;
+    margin-right: 5%;
+    margin-bottom: 3%;
+}
+
+.cajas__inicio {
+    background-color: rgba(255, 255, 255, 0.8);
+    width: 45%;
+    margin-top: 20px;
+    margin-right: 20px;
+    margin-bottom: 10rem;
+    border: 5px solid rgb(72, 103, 93);
+}
+
+.imagen1 {
+    padding-left: 10%;
+}
+
+.text__img {
+    padding: 10px;
+    font-size: 1.2rem;
+}
+
+
+/*inicio de tienda */
+
+.header__tienda {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+
+.titulo__productos {
+    background-color: rgba(255, 255, 255, 0.8);
+    margin: 10px;
+}
+
+.tarjeta {
+    border: 2px solid  rgb(72, 103, 93);
+    background-color: rgba(255, 255, 255, 0.8);
+    width: 250px;
+    height: fit-content;
+    padding: 15px;
+    margin: 15px;
+    border-radius: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.tarjeta__img {
+    width: 100%;
+}
+
+.tarjeta__titulo {
+    margin-top: 15px;
+}
+
+.tarjeta__precio {
+    display: block;
+    padding: 10px 0;
+    font-size: 1.5rem;
+}
+
+.tarjeta__variable {
+    padding: 4px;
+    border: solid 2px black;
+    background-color: white;
+}
+
+.tarjeta__variable--activo {
+    background-color: pink;
+}
+
+.tarjeta__variable:hover {
+    border: 2px solid white;
+    background-color: rgb(245, 175, 175);
+    color: white;
+}
+
+.boton__cantidad {
+    width: 35px;
+}
+
+.tarjeta__boton {
+    margin-top: 10px;
+    display: block;
+    border: 2px solid black;
+    text-align: center;
+    padding: 5px 0;
+    color: rgba(255,255,255,.3);
+    transition-duration: 1s;
+    background: #000000;
+    text-shadow: 0 0 15px rgba(255,255,255,.5), 0 0 10px rgba(255,255,255,.5);
+}
+
+.tarjeta__boton:hover {
+    border: 2px solid white;
+    color: white;
+    transition-duration: 50ms;
+    background: #000000;
+    text-shadow: 0 0 5px #FFF, 0 0 10px #FFF, 0 0 15px #FFF, 0 0 20px magenta, 0 0 30px magenta, 0 0 40px magenta, 0 0 55px magenta, 0 0 75px magenta;
+}
+
+/* fin de tienda */
+
+/*inicio turnos*/
+
+.titulo__agendar {
+    background-color: rgb(245, 175, 175);
+    padding: 10px;
+    margin-bottom: 100px;
+}
+
+.section__turnos {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    margin-bottom: 25rem;
+}
+
+/*fin turnos*/
+
+/*inicio nosotros*/
+
+.mapa {
+    margin-top: 30px;
+}
+
+.section__nosotros {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 30px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+/*fin nosotros*/
+
+/*inicio franquicias*/
+
+.franquicias__section {
+    margin-top: 7rem;
+    margin-bottom: 30rem;
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 30px;
+}
+
+/*fin franquicias*/
+
+/*inicio footer*/
+
+footer {
+    padding: 10px;
+    width: 100%;
+    background-color: rgb(245, 175, 175);
+}
+
+.footer__text {
+    margin-bottom: 10px;
+    text-decoration: underline;
+}
+
+.footer__list {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer__item1:hover {
+    color: brown;
+}
+
+.footer__item2:hover {
+    color: brown;
+}
+
+.footer__item3:hover {
+    color: brown;
+}
+
+.footer__item4:hover {
+    color: brown;
+}
+
+.footer__item5:hover {
+    color: brown;
+}
+
+/*fin footer*/
