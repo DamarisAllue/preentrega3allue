@@ -5,28 +5,36 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./css/styles.css">
     <script src="https://kit.fontawesome.com/aabb392991.js" crossorigin="anonymous"></script>
     <title>Damnnails </title>
     <link rel="shortcut icon" href="./imagenes/logo2.jpg">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/styles.css">
 </head>
 
 <body>
 
-    <header>
-        <nav class="navbar">
-            <a href="index.html"><img src="./imagenes/logo2.jpg" alt="logo" width="100px" class="logo"></a>
-            <ul class="navbar__list">
-                <li class="navbar__item"><a href="./paginas/turnos.html">turnos</a></li>
-                <li class="navbar__item"><a href="./paginas/tienda.html">tienda</a></li>
-                <li class="navbar__item"><a href="./paginas/nosotros.html">nosotros</a></li>
-                <li class="navbar__item"><a href="./paginas/franquicias.html">franquicias</a></li>
-            </ul>
-        </nav>
+    <header class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index.html">inicio</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <nav class="navbar-nav">
+                    <a class="nav-link" href="./paginas/tienda.html">Tienda</a>
+                    <a class="nav-link" href="./paginas/turnos.html">Turnos</a>
+                    <a class="nav-link" href="./paginas/nosotros.html">Nosotros</a>
+                    <a class="nav-link" href="./paginas/franquicias.html">Franquicias</a>
+                </nav>
+            </div>
+        </div>
     </header>
 
+
+
     <main>
-        <h2 class="nombre">DAMNNAILS</h2>
         <h1>Boutique de belleza</h1>
         <section class="section__introduccion">
             <article class="introduccion">
@@ -72,7 +80,7 @@
         </div>
     </footer>
 
-
+    <script src="./js/bootstrap.bundle.min.js"></script>
 </body>
 
 </html>

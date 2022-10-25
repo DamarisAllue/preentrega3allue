@@ -5,30 +5,32 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../css/styles.css">
     <script src="https://kit.fontawesome.com/aabb392991.js" crossorigin="anonymous"></script>
     <link rel="shortcut icon" href="../imagenes/logo2.jpg">
     <title>tienda</title>
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/styles.css">
 </head>
 
 <body>
 
-    <header>
-        <nav class="navbar">
-            <a href="../index.html"><img src="../imagenes/logo.jpg" alt="logo" width="100px" class="logo"></a>
-            <ul class="navbar__list">
-                <div class="buscador">
-                    <label for="buscador">buscar:</label>
-                    <input type="search" id="buscador">
-                </div>
-                <li class="navbar__item"><a href="turnos.html">turnos</a></li>
-                <li class="navbar__item"><a href="nosotros.html">nosotros</a></li>
-                <li class="navbar__item"><a href="franquicias.html">franquicias</a></li>
-            </ul>
-
-        </nav>
+    <header class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="tienda.html">Tienda</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <nav class="navbar-nav">
+                    <a class="nav-link" href="../index.html">Inicio</a>
+                    <a class="nav-link" href="turnos.html">Turnos</a>
+                    <a class="nav-link" href="nosotros.html">Nosotros</a>
+                    <a class="nav-link" href="franquicias.html">Franquicias</a>
+                </nav>
+            </div>
+        </div>
     </header>
-
 
 
     <main>
@@ -36,7 +38,7 @@
         <section>
             <h2 class="titulo__productos">Seccion de productos</h2>
             <article class="tarjeta">
-                <img src="../imagenes/esmaltes-marca1.jpg" alt="esmaltes marca 1" class="tarjeta__img">
+                <img src="../imagenes/esmaltes-marca1.jpg" alt="esmaltes marca 1" class="tarjeta__img" height="150px">
                 <h3 class="tarjeta__titulo">Esmalte marca "1"</h3>
                 <span class="tarjeta__precio">$1.000</span>
                 <button class="tarjeta__variable tarjeta__variable--activo">Rojo</button>
@@ -49,7 +51,7 @@
                 <a href="" class="tarjeta__boton">Comprar</a>
             </article>
             <article class="tarjeta">
-                <img src="../imagenes/serumfacial.jpg" alt="serum facial" class="tarjeta__img">
+                <img src="../imagenes/serumfacial.jpg" alt="serum facial" class="tarjeta__img" height="150px">
                 <h3 class="tarjeta__titulo">serum facial</h3>
                 <span class="tarjeta__precio">$1.500</span>
                 <button class="tarjeta__variable tarjeta__variable--activo">Pepino</button>
@@ -61,7 +63,7 @@
                 <a href="" class="tarjeta__boton">Comprar</a>
             </article>
             <article class="tarjeta">
-                <img src="../imagenes/glitter.jpg" alt="glitter" class="tarjeta__img">
+                <img src="../imagenes/glitter.jpg" alt="glitter" class="tarjeta__img" height="150px">
                 <h3 class="tarjeta__titulo">glitter</h3>
                 <span class="tarjeta__precio">$500</span>
                 <button class="tarjeta__variable tarjeta__variable--activo">rojo</button>
@@ -74,7 +76,7 @@
                 <a href="" class="tarjeta__boton">Comprar</a>
             </article>
             <article class="tarjeta">
-                <img src="../imagenes/cremademanos.jpg" alt="crema de manos" class="tarjeta__img">
+                <img src="../imagenes/cremademanos.jpg" alt="crema de manos" class="tarjeta__img" height="150px">
                 <h3 class="tarjeta__titulo">crema de manos</h3>
                 <span class="tarjeta__precio">$3.000</span>
                 <label for="ticketNum">cantidad:</label>
@@ -83,7 +85,7 @@
                 <a href="" class="tarjeta__boton">Comprar</a>
             </article>
             <article class="tarjeta">
-                <img src="../imagenes/kitbasico.jpg" alt="kit basico" class="tarjeta__img">
+                <img src="../imagenes/kitbasico.jpg" alt="kit basico" class="tarjeta__img" height="150px">
                 <h3 class="tarjeta__titulo">kit basico manicuria</h3>
                 <span class="tarjeta__precio">$7.000</span>
                 <label for="ticketNum">cantidad:</label>
@@ -107,6 +109,7 @@
         </div>
     </footer>
 
+    <script src="../js/bootstrap.bundle.min.js"></script>
 </body>
 
 </html>
