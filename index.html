@@ -14,9 +14,9 @@
 
 <body>
 
-    <header class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <header class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
         <div class="container-fluid">
-            <a class="navbar-brand" href="index.html">inicio</a>
+            <a class="navbar-brand" href="index.html"><img src="./imagenes/logo3.jpg" alt="logo" width="30px"> inicio</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
                 aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -35,35 +35,95 @@
 
 
     <main>
+        <article class="bg-dark m-2">
+            <h2 class="text-center">DAMNNAILS</h2>
+        </article>
         <h1>Boutique de belleza</h1>
-        <section class="section__introduccion">
-            <article class="introduccion">
-                <h2 class="introduccion__titulo">Uñas perfectas</h2>
-                <p class="introduccion__parrafo">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat
-                    facilis
-                    quisquam aperiam perspiciatis
-                    quos totam, ipsam vero dolore facere ex explicabo consectetur eum omnis cumque, molestiae
-                    nesciunt
-                    repellendus velit quam.</p>
-                <p class="introduccion__parrafo">Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam
-                    eum
-                    fugit
-                    amet
-                    id voluptate mollitia sit officiis at voluptas. Quidem, dolore corrupti. Inventore ullam quod
-                    explicabo
-                    accusamus cumque aperiam sed? Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis nam
-                    tempora
-                    eaque incidunt, eius ab reiciendis magni fugiat? Eius obcaecati atque necessitatibus qui? Illo,
-                    laborum
-                    ea quisquam ipsum qui obcaecati!</p>
-            </article>
-            <article class="cajas__inicio">
-                <img src="./imagenes/uñas1.jpg" alt="uñas" width="90%" class="imagen1">
-                <p class="text__img">Lorem ipsum dolor sit, amet.</p>
-                <img src="./imagenes/uñas2.jpg" alt="uñas" width="90%" class="imagen1">
-                <p class="text__img">Lorem ipsum dolor sit amet.</p>
-            </article>
-        </section>
+        <div class="row p-3 g-4">
+            <div class="col col-12 col-sm-4 col-lg-3">
+                <div class="card h-100">
+                    <img src="./imagenes/logo.jpg" class="card-img-top" alt="uñas">
+                    <div class="card-body">
+                        <h5 class="card-title">Nuestra marca</h5>
+                        <p class="card-text">Elegimos nuestros servicios estrategicamente pensado para que puedas tener
+                            tus manos y pies impecables, siempre!</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col col-12 col-sm-4 col-lg-3">
+                <div class="card h-100">
+                    <img src="./imagenes/uñas1.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Conoce nuestro nuevo servicio de soft gel!</h5>
+                        <p class="card-text">Importado desde Estados Unidos y calidad premium.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col col-12 col-sm-4 col-lg-3">
+                <div class="card h-100">
+                    <img src="./imagenes/uñas2.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">que marcas utilizamos?</h5>
+                        <p class="card-text">Siempre utilizamos marcas de excelente calidad y ultimas tendencias, pensando en vos y en tu belleza.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col col-12 col-sm-12 col-lg-3">
+                <div class="card h-100">
+                    <div class="card-body">
+                        <h5 class="card-title text-decoration-underline">te estamos esperando!</h5>
+                        <p class="card-text justify-content-center p-2">Nuestro deseo es que pases un momento agradable
+                            cuando dejes tus manos en las de nuestros profesionales capacitados para embellecer tus
+                            uñas, enseñarte a protegerlas y darte tips extras</p>
+                            <a href="./paginas/turnos.html" class="link">Pedinos ya tu turno!</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner p-3 rounded-2">
+                <div class="carousel-item active" data-bs-interval="10000">
+                    <img src="./imagenes/crema.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-sm-block">
+                        <p class="bg-light opacity-75">En nuestros locales armamos todo para que te sientas como una reina!</p>
+                    </div>
+                </div>
+                <div class="carousel-item" data-bs-interval="2000">
+                    <img src="./imagenes/manicuria.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-sm-block">
+                        <p class="bg-light opacity-75">vení a visitarnos y realizate tu servicio favorito!</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="./imagenes/estante.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-sm-block">
+                        <p class="bg-light opacity-75">trabajamos con las mejores marcas.</p>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">anterior</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">siguiente</span>
+            </button>
+        </div>
+
+
+
     </main>
 
 
