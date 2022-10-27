@@ -7,28 +7,36 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../css/styles.css">
     <script src="https://kit.fontawesome.com/aabb392991.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
     <link rel="shortcut icon" href="../imagenes/logo2.jpg">
     <title>nosotros</title>
 </head>
 
 <body>
 
-    <header>
-        <nav class="navbar">
-            <a href="../index.html"><img src="../imagenes/logo.jpg" alt="logo" width="100px" class="logo"></a>
-            <ul class="navbar__list">
-                <li class="navbar__item"><a href="turnos.html">turnos</a></li>
-                <li class="navbar__item"><a href="tienda.html">tienda</a></li>
-                <li class="navbar__item"><a href="franquicias.html">franquicias</a></li>
-            </ul>
-        </nav>
+    <header class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="nosotros.html">Nosotros</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <nav class="navbar-nav">
+                    <a class="nav-link" href="../index.html">Inicio</a>
+                    <a class="nav-link" href="turnos.html">Turnos</a>
+                    <a class="nav-link" href="tienda.html">Tienda</a>
+                    <a class="nav-link" href="franquicias.html">Franquicias</a>
+                </nav>
+            </div>
+        </div>
     </header>
 
     <main>
         <h1>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</h1>
         <iframe
             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d26281.729249278957!2d-58.43852501410559!3d-34.573396763196975!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcb59c771eb933%3A0x6b3113b596d78c69!2sPalermo%2C%20CABA!5e0!3m2!1ses!2sar!4v1665371650589!5m2!1ses!2sar"
-            width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+            width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"
             referrerpolicy="no-referrer-when-downgrade"></iframe>
         <section class="section__nosotros">
             <article>
@@ -54,6 +62,7 @@
         </div>
     </footer>
 
+    <script src="../js/bootstrap.bundle.min.js"></script>
 </body>
 
 </html>
