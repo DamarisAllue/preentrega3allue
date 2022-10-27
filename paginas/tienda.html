@@ -37,62 +37,54 @@
         <h1>bienvenido a nuestra tienda!</h1>
         <section>
             <h3 class="titulo__h3">Seccion de productos</h3>
-            <article class="tarjeta">
-                <img src="../imagenes/esmaltes-marca1.jpg" alt="esmaltes marca 1" class="tarjeta__img" height="150px">
-                <h3 class="tarjeta__titulo">Esmalte marca "1"</h3>
-                <span class="tarjeta__precio">$1.000</span>
-                <button class="tarjeta__variable tarjeta__variable--activo">Rojo</button>
-                <button class="tarjeta__variable">Blanco</button>
-                <button class="tarjeta__variable">Azul</button>
-                <button class="tarjeta__variable">Violeta</button>
-                <label for="ticketNum">cantidad:</label>
-                <input id="ticketNum" type="number" name="ticketNum" value="0" min="0" max="12"
-                    class="boton__cantidad" />
-                <a href="" class="tarjeta__boton">Comprar</a>
-            </article>
-            <article class="tarjeta">
-                <img src="../imagenes/serumfacial.jpg" alt="serum facial" class="tarjeta__img" height="150px">
-                <h3 class="tarjeta__titulo">serum facial</h3>
-                <span class="tarjeta__precio">$1.500</span>
-                <button class="tarjeta__variable tarjeta__variable--activo">Pepino</button>
-                <button class="tarjeta__variable">Aloe vera</button>
-                <button class="tarjeta__variable">Vitamina c</button>
-                <label for="ticketNum">cantidad:</label>
-                <input id="ticketNum" type="number" name="ticketNum" value="0" min="0" max="12"
-                    class="boton__cantidad" />
-                <a href="" class="tarjeta__boton">Comprar</a>
-            </article>
-            <article class="tarjeta">
-                <img src="../imagenes/glitter.jpg" alt="glitter" class="tarjeta__img" height="150px">
-                <h3 class="tarjeta__titulo">glitter</h3>
-                <span class="tarjeta__precio">$500</span>
-                <button class="tarjeta__variable tarjeta__variable--activo">rojo</button>
-                <button class="tarjeta__variable">blanco</button>
-                <button class="tarjeta__variable">azul</button>
-                <button class="tarjeta__variable">violeta</button>
-                <label for="ticketNum">cantidad:</label>
-                <input id="ticketNum" type="number" name="ticketNum" value="0" min="0" max="12"
-                    class="boton__cantidad" />
-                <a href="" class="tarjeta__boton">Comprar</a>
-            </article>
-            <article class="tarjeta">
-                <img src="../imagenes/cremademanos.jpg" alt="crema de manos" class="tarjeta__img" height="150px">
-                <h3 class="tarjeta__titulo">crema de manos</h3>
-                <span class="tarjeta__precio">$3.000</span>
-                <label for="ticketNum">cantidad:</label>
-                <input id="ticketNum" type="number" name="ticketNum" value="0" min="0" max="12"
-                    class="boton__cantidad" />
-                <a href="" class="tarjeta__boton">Comprar</a>
-            </article>
-            <article class="tarjeta">
-                <img src="../imagenes/kitbasico.jpg" alt="kit basico" class="tarjeta__img" height="150px">
-                <h3 class="tarjeta__titulo">kit basico manicuria</h3>
-                <span class="tarjeta__precio">$7.000</span>
-                <label for="ticketNum">cantidad:</label>
-                <input id="ticketNum" type="number" name="ticketNum" value="0" min="0" max="12"
-                    class="boton__cantidad" />
-                <a href="" class="tarjeta__boton">Comprar</a>
-            </article>
+            <div class="row flex justify-content-center justify-content-sm-start">
+                <article class="card tarjeta">
+                    <img src="../imagenes/esmaltes-marca1.jpg" alt="esmaltes marca 1" class="tarjeta__img"
+                        height="150px">
+                    <h3 class="tarjeta__titulo">Esmalte marca</h3>
+                    <span class="tarjeta__precio">$1.000</span>
+                    <label for="ticketNum">cantidad:</label>
+                    <input id="ticketNum" type="number" name="ticketNum" value="0" min="0" max="12"
+                        class="boton__cantidad" />
+                    <a href="" class="tarjeta__boton">Comprar</a>
+                </article>
+                <article class="card tarjeta">
+                    <img src="../imagenes/serumfacial.jpg" alt="serum facial" class="tarjeta__img" height="150px">
+                    <h3 class="tarjeta__titulo">serum facial</h3>
+                    <span class="tarjeta__precio">$1.500</span>
+                    <label for="ticketNum">cantidad:</label>
+                    <input id="ticketNum" type="number" name="ticketNum" value="0" min="0" max="12"
+                        class="boton__cantidad" />
+                    <a href="" class="tarjeta__boton">Comprar</a>
+                </article>
+                <article class="card tarjeta">
+                    <img src="../imagenes/glitter.jpg" alt="glitter" class="tarjeta__img" height="150px">
+                    <h3 class="tarjeta__titulo">glitter</h3>
+                    <span class="tarjeta__precio">$500</span>
+                    <label for="ticketNum">cantidad:</label>
+                    <input id="ticketNum" type="number" name="ticketNum" value="0" min="0" max="12"
+                        class="boton__cantidad" />
+                    <a href="" class="tarjeta__boton">Comprar</a>
+                </article>
+                <article class="card tarjeta">
+                    <img src="../imagenes/cremademanos.jpg" alt="crema de manos" class="tarjeta__img" height="150px">
+                    <h3 class="tarjeta__titulo">crema de manos</h3>
+                    <span class="tarjeta__precio">$3.000</span>
+                    <label for="ticketNum">cantidad:</label>
+                    <input id="ticketNum" type="number" name="ticketNum" value="0" min="0" max="12"
+                        class="boton__cantidad" />
+                    <a href="" class="tarjeta__boton">Comprar</a>
+                </article>
+                <article class="card tarjeta">
+                    <img src="../imagenes/kitbasico.jpg" alt="kit basico" class="tarjeta__img" height="150px">
+                    <h3 class="tarjeta__titulo">kit basico</h3>
+                    <span class="tarjeta__precio">$7.000</span>
+                    <label for="ticketNum">cantidad:</label>
+                    <input id="ticketNum" type="number" name="ticketNum" value="0" min="0" max="12"
+                        class="boton__cantidad" />
+                    <a href="" class="tarjeta__boton">Comprar</a>
+                </article>
+            </div>
         </section>
     </main>
 
