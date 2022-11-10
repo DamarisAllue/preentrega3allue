@@ -1,0 +1,39 @@
+footer {
+    width: 100%;
+    padding: 10px;
+    background-color: rgb(245, 175, 175);
+}
+
+.footer {
+    &__text {
+        margin-bottom: 10px;
+        text-decoration: underline;
+    }
+
+    &__list {
+        display: flex;
+        padding: 0px;
+        justify-content: space-between;
+        margin: 10px;
+    }
+
+    &__item1:hover {
+        color: brown;
+    }
+
+    &__item2:hover {
+        color: brown;
+    }
+
+    &__item3:hover {
+        color: brown;
+    }
+
+    &__item4:hover {
+        color: brown;
+    }
+
+    &__item5:hover {
+        color: brown;
+    }
+}

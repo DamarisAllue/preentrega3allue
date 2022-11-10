@@ -1,0 +1,35 @@
+h2 {
+    font-size: 40px;
+    color: white;
+    font-weight: bold;
+    text-transform: uppercase;
+    background-image: linear-gradient(to right,
+            $color-claro,
+            pink,
+            $color-oscuro,
+            $color-claro);
+    background-size: 100%;
+    animation: sliding 100s linear infinite;
+    background-clip: initial;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+@keyframes sliding {
+    to {
+        background-position: -2000vw;
+    }
+}
+
+.link {
+    padding: 9px;
+    border: 2px solid $verde;
+    border-radius: 7px;
+    color: black;
+
+    &:hover {
+        color: black;
+        background-color: white;
+        font-weight: bold;
+    }
+}

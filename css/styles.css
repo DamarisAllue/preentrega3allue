@@ -1,3 +1,196 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
 
+body {
+  background-image: url(../imagenes/fondo1.jpg);
+}
 
-/*# sourceMappingURL=styles.css.map */
+.nombre {
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  font-size: 40px;
+  color: rgb(212, 105, 105);
+  border: 2px solid rgb(245, 175, 175);
+}
+
+h1 {
+  display: flex;
+  font-size: 4vh;
+  background-color: rgba(255, 255, 255, 0.5);
+  margin-top: 20px;
+  margin-bottom: 10px;
+  justify-content: center;
+  align-content: center;
+}
+
+h3 {
+  color: rgb(212, 105, 105);
+  display: flex;
+  justify-content: center;
+  margin: 0px;
+}
+
+.navbar-dark .navbar-brand {
+  color: rgba(255, 255, 255, 0.3);
+  transition-duration: 1s;
+  text-shadow: 0 0 15px rgba(255, 255, 255, 0.5), 0 0 10px rgba(255, 255, 255, 0.5);
+}
+.navbar-dark .navbar-brand:hover {
+  transition-duration: 50ms;
+  text-shadow: 0 0 5px #FFF, 0 0 10px #FFF, 0 0 15px #FFF, 0 0 20px magenta, 0 0 30px magenta, 0 0 40px magenta, 0 0 55px magenta, 0 0 75px magenta;
+}
+.navbar-dark .navbar-nav .nav-link {
+  color: rgba(255, 255, 255, 0.3);
+  transition-duration: 1s;
+  text-shadow: 0 0 15px rgba(255, 255, 255, 0.5), 0 0 10px rgba(255, 255, 255, 0.5);
+}
+.navbar-dark .navbar-nav .nav-link:hover {
+  transition-duration: 50ms;
+  text-shadow: 0 0 5px #FFF, 0 0 10px #FFF, 0 0 15px #FFF, 0 0 20px magenta, 0 0 30px magenta, 0 0 40px magenta, 0 0 55px magenta, 0 0 75px magenta;
+}
+
+.tarjeta {
+  border: 2px solid rgb(72, 103, 93);
+  background-color: rgba(255, 255, 255, 0.8);
+  width: 250px;
+  padding: 10px;
+  margin: 15px;
+  border-radius: 20px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.tarjeta__img {
+  width: 100%;
+}
+.tarjeta__titulo {
+  margin-top: 15px;
+}
+.tarjeta__precio {
+  display: block;
+  padding: 10px 0;
+  font-size: 1.5rem;
+}
+.tarjeta__boton {
+  margin-top: 10%;
+  display: flex;
+  justify-content: center;
+  border: 2px solid black;
+  border-radius: 5px;
+  color: rgba(255, 255, 255, 0.3);
+  transition-duration: 1s;
+  background: #000000;
+  text-shadow: 0 0 15px rgba(255, 255, 255, 0.5), 0 0 10px rgba(255, 255, 255, 0.5);
+}
+.tarjeta__boton:hover {
+  border: 2px solid white;
+  color: white;
+  transition-duration: 50ms;
+  background: #000000;
+  text-shadow: 0 0 5px #FFF, 0 0 10px #FFF, 0 0 15px #FFF, 0 0 20px magenta, 0 0 30px magenta, 0 0 40px magenta, 0 0 55px magenta, 0 0 75px magenta;
+}
+.tarjeta__boton__cantidad {
+  width: 35px;
+}
+
+footer {
+  width: 100%;
+  padding: 10px;
+  background-color: rgb(245, 175, 175);
+}
+
+.footer__text {
+  margin-bottom: 10px;
+  text-decoration: underline;
+}
+.footer__list {
+  display: flex;
+  padding: 0px;
+  justify-content: space-between;
+  margin: 10px;
+}
+.footer__item1:hover {
+  color: brown;
+}
+.footer__item2:hover {
+  color: brown;
+}
+.footer__item3:hover {
+  color: brown;
+}
+.footer__item4:hover {
+  color: brown;
+}
+.footer__item5:hover {
+  color: brown;
+}
+
+h2 {
+  font-size: 40px;
+  color: white;
+  font-weight: bold;
+  text-transform: uppercase;
+  background-image: linear-gradient(to right, rgb(219, 184, 248), pink, rgb(176, 94, 148), rgb(219, 184, 248));
+  background-size: 100%;
+  animation: sliding 100s linear infinite;
+  background-clip: initial;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+@keyframes sliding {
+  to {
+    background-position: -2000vw;
+  }
+}
+.link {
+  padding: 9px;
+  border: 2px solid rgb(72, 103, 93);
+  border-radius: 7px;
+  color: black;
+}
+.link:hover {
+  color: black;
+  background-color: rgb(210, 210, 210);
+  font-weight: bold;
+}
+
+.titulo__agendar {
+  background-color: rgb(245, 175, 175);
+  padding: 10px;
+  margin-bottom: 100px;
+}
+
+.section__turnos {
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 20px;
+  margin-bottom: 25rem;
+}
+
+.titulo__h3 {
+  background-color: rgba(255, 255, 255, 0.8);
+  margin: 10px;
+}
+
+.mapa {
+  margin-top: 30px;
+}
+
+.section__nosotros {
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 30px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.franquicias__section {
+  margin-top: 7rem;
+  margin-bottom: 30rem;
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 30px;
+}/*# sourceMappingURL=main.css.map */

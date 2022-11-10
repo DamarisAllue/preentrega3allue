@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+body {
+    background-image: url(../imagenes/fondo1.jpg)
+}
+
+.nombre {
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    font-size: 40px;
+    color: $color-oscuro;
+    border: 2px solid $color-claro;
+}
+
+h1 {
+    display: flex;
+
+    font-size: 4vh;
+    background-color: $transparente;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    justify-content: center;
+    align-content: center;
+}
+
+h3 {
+    color: $color-oscuro;
+    display: flex;
+    justify-content: center;
+    margin: 0px;
+}

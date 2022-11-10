@@ -1,0 +1,47 @@
+.tarjeta {
+    border: 2px solid $verde;
+    background-color: $transparente;
+    width: 250px;
+    padding: 10px;
+    margin: 15px;
+    border-radius: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+    &__img {
+        width: 100%;
+    }
+
+    &__titulo {
+        margin-top: 15px;
+    }
+
+    &__precio {
+        display: block;
+        padding: 10px 0;
+        font-size: 1.5rem;
+    }
+
+    &__boton {
+        margin-top: 10%;
+        display: flex;
+        justify-content: center;
+        border: 2px solid black;
+        border-radius: 5px;
+        color: $transparente2;
+        transition-duration: 1s;
+        background: black;
+        text-shadow: 0 0 15px $transparente, 0 0 10px $transparente;
+
+        &:hover {
+            border: 2px solid white;
+            color: white;
+            transition-duration: 50ms;
+            background: #000000;
+            text-shadow: 0 0 5px $principal, 0 0 10px $pricipal, 0 0 15px $pricipal, 0 0 20px magenta, 0 0 30px magenta, 0 0 40px magenta, 0 0 55px magenta, 0 0 75px magenta;
+        }
+
+        &__cantidad {
+            width: 35px;
+        }
+    }
+}
