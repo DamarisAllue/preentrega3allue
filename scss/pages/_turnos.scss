@@ -1,11 +1,11 @@
 .titulo__agendar {
-    background-color: rgb(245, 175, 175);
+    background-color: $color-claro;
     padding: 10px;
     margin-bottom: 100px;
 }
 
 .section__turnos {
-    background-color: rgba(255, 255, 255, 0.8);
+    background-color: $transparente;
     padding: 20px;
     margin-bottom: 25rem;
 }

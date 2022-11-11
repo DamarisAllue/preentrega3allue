@@ -30,14 +30,14 @@
         color: $transparente2;
         transition-duration: 1s;
         background: black;
-        text-shadow: 0 0 15px $transparente, 0 0 10px $transparente;
+        text-shadow: 0 0 15px $transparente, 0 0 10px $transparente ;
 
         &:hover {
             border: 2px solid white;
             color: white;
             transition-duration: 50ms;
             background: #000000;
-            text-shadow: 0 0 5px $principal, 0 0 10px $pricipal, 0 0 15px $pricipal, 0 0 20px magenta, 0 0 30px magenta, 0 0 40px magenta, 0 0 55px magenta, 0 0 75px magenta;
+            text-shadow: 0 0 5px white, 0 0 10px white, 0 0 15px white, 0 0 20px magenta, 0 0 30px magenta, 0 0 40px magenta, 0 0 55px magenta, 0 0 75px magenta;
         }
 
         &__cantidad {
