@@ -5,8 +5,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="podes solicitar un turno con nosotras comploetando un formulario">
     <script src="https://kit.fontawesome.com/aabb392991.js" crossorigin="anonymous"></script>
-    <link rel="shortcut icon" href="../imagenes/logo2.jpg">
+    <link rel="shortcut icon" href="../imagenes/logo2.png">
     <title>turnos</title>
     <link rel="stylesheet" href="../css/bootstrap.min.css">
     <link rel="stylesheet" href="../css/styles.css">
@@ -36,57 +37,63 @@
         <h1>¡Te estamos esperando!</h1>
         <section>
             <h3 class="titulo__h3">Agenda tu turno</h3>
-            <form class="section__turnos">
-                <div>
-                    <label for="nombre-usuario">Nombre y apellido:</label>
-                    <input type="text" name="nombre" id="nombre-usuario" placeholder="nombre apellido" required>
+            <form class="section__turnos row text-center">
+                <div class="col-md-6 col-xl-4">
+                    <div>
+                        <label for="nombre-usuario">Nombre y apellido:</label>
+                        <input type="text" name="nombre" id="nombre-usuario" placeholder="nombre apellido" required>
+                    </div>
+                    <div>
+                        <label for="correo electronico">Email:</label>
+                        <input type="email" name="email" id="correo electronico" placeholder="ejemplo@mail.com"
+                            required>
+                    </div>
+                    <div>
+                        <label for="contraseña">contraseña:</label>
+                        <input type="password">
+                    </div>
+                    <div>
+                        <label for="servicio">servicio:</label>
+                        <select name="servicio" id="servicio" required>
+                            <option value="manicuria">manicuria</option>
+                            <option value="pedicuria">pedicuria</option>
+                            <option value="perfilado">perfilado</option>
+                            <option value="otro">otro</option>
+                        </select>
+                        <div>
+                            <label for="appt">horario:</label>
+                            <input type="time" id="appt" name="appt" min="09:00" max="20:00" required>
+                            <small>Estamos abiertos desde 9:00 a 20:00!</small>
+                        </div>
+                    </div>
                 </div>
-                <div>
-                    <label for="correo electronico">Email:</label>
-                    <input type="email" name="email" id="correo electronico" placeholder="ejemplo@mail.com" required>
+                <div class="col-md-6 col-xl-4">
+                    <div>
+                        <label for="fecha">fecha</label>
+                        <input type="date" id="start" name="trip-start" min="2022-10-01" max="2022-12-31">
+                    </div>
+                    <div>
+                        <span>profesional:</span>
+                        <label for="">Rocio</label>
+                        <input type="radio" name="profesional" value="rocio">
+                        <label for="">Marta</label>
+                        <input type="radio" name="profesional" value="marta">
+                        <label for="">Agustina</label>
+                        <input type="radio" name="profesional" value="agustina">
+                        <label for="">Profesional disponible</label>
+                        <input type="radio" name="profesional" value="profesional disponible">
+                    </div>
+                    <div>
+                        <label for="" class="mensaje__label">mensaje:</label>
+                        <textarea name="" id="" cols="30" rows="5"></textarea>
+                    </div>
+                    <div>
+                        <label for="">quiere recibir notificaciones?</label>
+                        <input type="checkbox">
+                    </div>
+                    <input type="submit">
                 </div>
-                <div>
-                    <label for="contraseña">contraseña:</label>
-                    <input type="password">
-                </div>
-                <div>
-                    <label for="servicio">servicio:</label>
-                    <select name="servicio" id="servicio" required>
-                        <option value="manicuria">manicuria</option>
-                        <option value="pedicuria">pedicuria</option>
-                        <option value="perfilado">perfilado</option>
-                        <option value="otro">otro</option>
-                    </select>
-                </div>
-                <div>
-                    <label for="appt">horario:</label>
-                    <input type="time" id="appt" name="appt" min="09:00" max="20:00" required>
-                    <small>Estamos abiertos desde 9:00 a 20:00!</small>
-                </div>
-                <div>
-                    <label for="fecha">fecha</label>
-                    <input type="date" id="start" name="trip-start" min="2022-10-01" max="2022-12-31">
-                </div>
-                <div>
-                    <span>profesional:</span>
-                    <label for="">Rocio</label>
-                    <input type="radio" name="profesional" value="rocio">
-                    <label for="">Marta</label>
-                    <input type="radio" name="profesional" value="marta">
-                    <label for="">Agustina</label>
-                    <input type="radio" name="profesional" value="agustina">
-                    <label for="">Profesional disponible</label>
-                    <input type="radio" name="profesional" value="profesional disponible">
-                </div>
-                <div>
-                    <label for="" class="mensaje__label">mensaje:</label>
-                    <textarea name="" id="" cols="30" rows="5"></textarea>
-                </div>
-                <div>
-                    <label for="">quiere recibir notificaciones?</label>
-                    <input type="checkbox">
-                </div>
-                <input type="submit">
+                <img class="col-xl-4" src="../imagenes/pestañas.jpg" alt="servicio pestañas">
             </form>
         </section>
     </main>
