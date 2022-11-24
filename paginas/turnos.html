@@ -7,8 +7,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="podes solicitar un turno con nosotras comploetando un formulario">
     <script src="https://kit.fontawesome.com/aabb392991.js" crossorigin="anonymous"></script>
-    <link rel="shortcut icon" href="../imagenes/logo2.png">
-    <title>turnos</title>
+    <link rel="shortcut icon" href="../imagenes/favicon.ico">
+    <title>Turnos - Musa Beauty</title>
     <link rel="stylesheet" href="../css/bootstrap.min.css">
     <link rel="stylesheet" href="../css/styles.css">
 </head>
@@ -17,17 +17,17 @@
 
     <header class="navbar navbar-expand-lg navbar-dark bg-dark">
         <div class="container-fluid">
-            <a class="navbar-brand" href="turnos.html">Turnos</a>
+            <a class="navbar-brand" href="turnos.html">TURNOS</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
                 aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                 <nav class="navbar-nav">
-                    <a class="nav-link" href="../index.html">Inicio</a>
-                    <a class="nav-link" href="tienda.html">Tienda</a>
-                    <a class="nav-link" href="nosotros.html">Nosotros</a>
-                    <a class="nav-link" href="franquicias.html">Franquicias</a>
+                    <a class="nav-link" href="../index.html">INICIO</a>
+                    <a class="nav-link" href="servicios.html">SERVICIOS</a>
+                    <a class="nav-link" href="nosotros.html">NOSOTROS</a>
+                    <a class="nav-link" href="preguntas-frecuentes.html">PREGUNTAS FRECUENTES</a>
                 </nav>
             </div>
         </div>
@@ -38,64 +38,58 @@
         <section>
             <h3 class="titulo__h3">Agenda tu turno</h3>
             <form class="section__turnos row text-center">
-                <div class="col-md-6 col-xl-4">
-                    <div>
-                        <label for="nombre-usuario">Nombre y apellido:</label>
-                        <input type="text" name="nombre" id="nombre-usuario" placeholder="nombre apellido" required>
-                    </div>
-                    <div>
-                        <label for="correo electronico">Email:</label>
-                        <input type="email" name="email" id="correo electronico" placeholder="ejemplo@mail.com"
-                            required>
-                    </div>
-                    <div>
-                        <label for="contraseña">contraseña:</label>
-                        <input type="password">
-                    </div>
-                    <div>
-                        <label for="servicio">servicio:</label>
-                        <select name="servicio" id="servicio" required>
-                            <option value="manicuria">manicuria</option>
-                            <option value="pedicuria">pedicuria</option>
-                            <option value="perfilado">perfilado</option>
-                            <option value="otro">otro</option>
-                        </select>
-                        <div>
-                            <label for="appt">horario:</label>
-                            <input type="time" id="appt" name="appt" min="09:00" max="20:00" required>
-                            <small>Estamos abiertos desde 9:00 a 20:00!</small>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-6 col-xl-4">
-                    <div>
-                        <label for="fecha">fecha</label>
-                        <input type="date" id="start" name="trip-start" min="2022-10-01" max="2022-12-31">
-                    </div>
-                    <div>
-                        <span>profesional:</span>
-                        <label for="">Rocio</label>
-                        <input type="radio" name="profesional" value="rocio">
-                        <label for="">Marta</label>
-                        <input type="radio" name="profesional" value="marta">
-                        <label for="">Agustina</label>
-                        <input type="radio" name="profesional" value="agustina">
-                        <label for="">Profesional disponible</label>
-                        <input type="radio" name="profesional" value="profesional disponible">
-                    </div>
-                    <div>
-                        <label for="" class="mensaje__label">mensaje:</label>
-                        <textarea name="" id="" cols="30" rows="5"></textarea>
-                    </div>
-                    <div>
-                        <label for="">quiere recibir notificaciones?</label>
-                        <input type="checkbox">
-                    </div>
-                    <input type="submit">
-                </div>
                 <img class="col-xl-4" src="../imagenes/pestañas.jpg" alt="servicio pestañas">
+                <section class="col-md-6 col-xl-4">
+                    <form action="" class="formulario">
+                        <p class="formulario__parrafo">
+                            Llena este pequeño formulario para agendar tu cita en Musa beauty.
+                        </p>
+                        <div class=" p-2">
+                            <label for="cliente" class="formulario__label">Nombre y Apellido</label>
+                            <input id="cliente" type="text" class="formulario__input" placeholder="nombre y apellido" />
+                        </div>
+                        <div class=" p-2">
+                            <label for="fecha" class="formulario__label">fecha en la que te gustaria reservar tu
+                                turno</label>
+                            <input id="fecha" type="date" class="formulario__input"
+                                pattern="[0-9]{4}-[0-9]{2}-[0-9]{2}" />
+                        </div>
+                        <div class=" p-2">
+                            <label for="hora">Indica la hora aproximada</label>
+                            <input type="time" id="hora" max="19:00:00" min="09:30:00" />
+                            <small>Estamos abiertos desde 9:30 a 20:00!</small>
+                        </div>
+                        <div class=" p-2" >
+                            <label for="servicio" class="formulario__label">¿Cuál es el servicio que se desea
+                                realizar?</label>
+                            <select id="servicio" name="listaservicios" class="formulario__input">
+                                <option>Belleza de manos con esmaltado comun</option>
+                                <option>Belleza de manos con semipermanente</option>
+                                <option>Belleza de pies con esmaltado comun</option>
+                                <option>Belleza de pies con semipermanente</option>
+                                <option>Capping gel inicial</option>
+                                <option>Service capping (21 dias)</option>
+                                <option>SoftGel Press on Short</option>
+                                <option>SoftGel Press on Medium</option>
+                                <option>SoftGel Press on Long</option>
+                                <option>SoftGel Press on ExtraLong</option>
+                                <option>Lifting de pestañas</option>
+                                <option>Permanente de pestañas</option>
+                                <option>Tintura de pestañas</option>
+                                <option>Perfilado de cejas</option>
+                                <option>Laminado y Perfilado de cejas</option>
+                                <option>Botox de cejas o pestañas</option>
+                                <option>otro servicio</option>
+                            </select>
+                        </div>
+                        <div id="respuesta" class=" p-2"></div>
+                        <button id="submit" class="formulario__submit">Enviar a WhatsApp</button>
+                    </form>
+                    <script src="../js/form.js"></script>
             </form>
         </section>
+
+
     </main>
 
     <footer>
