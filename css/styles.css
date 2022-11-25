@@ -4,7 +4,7 @@
   box-sizing: border-box;
   text-decoration: none;
   list-style: none;
-  font-family: Georgia, "Times New Roman", Times, serif;
+  font-family: "Roboto", sans-serif;
 }
 
 body {
@@ -16,8 +16,8 @@ body {
   display: flex;
   justify-content: center;
   font-size: 40px;
-  color: rgb(212, 105, 105);
-  border: 2px solid rgb(245, 175, 175);
+  color: #a592ce;
+  border: 2px solid #c4b6e4;
 }
 
 h1 {
@@ -31,7 +31,7 @@ h1 {
 }
 
 h3 {
-  color: rgb(212, 105, 105);
+  color: #a592ce;
   display: flex;
   justify-content: center;
   margin: 0px;
@@ -42,22 +42,25 @@ h3 {
   transition-duration: 1s;
   text-shadow: 0 0 15px rgba(255, 255, 255, 0.5), 0 0 10px rgba(255, 255, 255, 0.5);
 }
+
 .navbar-dark .navbar-brand:hover {
   transition-duration: 50ms;
   text-shadow: 0 0 5px #FFF, 0 0 10px #FFF, 0 0 15px #FFF, 0 0 20px magenta, 0 0 30px magenta, 0 0 40px magenta, 0 0 55px magenta, 0 0 75px magenta;
 }
+
 .navbar-dark .navbar-nav .nav-link {
   color: rgba(255, 255, 255, 0.3);
   transition-duration: 1s;
   text-shadow: 0 0 15px rgba(255, 255, 255, 0.5), 0 0 10px rgba(255, 255, 255, 0.5);
 }
+
 .navbar-dark .navbar-nav .nav-link:hover {
   transition-duration: 50ms;
   text-shadow: 0 0 5px #FFF, 0 0 10px #FFF, 0 0 15px #FFF, 0 0 20px magenta, 0 0 30px magenta, 0 0 40px magenta, 0 0 55px magenta, 0 0 75px magenta;
 }
 
 .tarjeta {
-  border: 2px solid rgb(72, 103, 93);
+  border: 2px solid #e4bcc5;
   background-color: rgba(255, 255, 255, 0.5);
   width: 250px;
   padding: 10px;
@@ -101,7 +104,7 @@ h3 {
 footer {
   width: 100%;
   padding: 10px;
-  background-color: rgb(245, 175, 175);
+  background-color: #c4b6e4;
 }
 
 .footer__text {
@@ -114,20 +117,23 @@ footer {
   justify-content: space-between;
   margin: 10px;
 }
+.footer__item1 {
+  color: #a592ce;
+}
+.footer__item2 {
+  color: #a592ce;
+}
+.footer__item3 {
+  color: #a592ce;
+}
 .footer__item1:hover {
-  color: brown;
+  color: #e4bcc5;
 }
 .footer__item2:hover {
-  color: brown;
+  color: #e4bcc5;
 }
 .footer__item3:hover {
-  color: brown;
-}
-.footer__item4:hover {
-  color: brown;
-}
-.footer__item5:hover {
-  color: brown;
+  color: #e4bcc5;
 }
 
 h2 {
@@ -135,7 +141,7 @@ h2 {
   color: white;
   font-weight: bold;
   text-transform: uppercase;
-  background-image: linear-gradient(to right, rgb(245, 175, 175), pink, rgb(212, 105, 105), rgb(245, 175, 175));
+  background-image: linear-gradient(to right, #c4b6e4, pink, #a592ce, #c4b6e4);
   background-size: 100%;
   animation: sliding 100s linear infinite;
   background-clip: initial;
@@ -150,7 +156,7 @@ h2 {
 }
 .link {
   padding: 9px;
-  border: 2px solid rgb(72, 103, 93);
+  border: 2px solid #e4bcc5;
   border-radius: 7px;
   color: black;
 }
@@ -160,7 +166,7 @@ h2 {
 }
 
 .titulo__agendar {
-  background-color: rgb(245, 175, 175);
+  background-color: #c4b6e4;
   padding: 10px;
   margin-bottom: 100px;
 }
@@ -171,9 +177,11 @@ h2 {
   margin-bottom: 25rem;
 }
 
-.titulo__h3 {
+.franquicias__section {
+  margin-top: 7rem;
+  margin-bottom: 30rem;
   background-color: rgba(255, 255, 255, 0.5);
-  margin: 10px;
+  padding: 30px;
 }
 
 .mapa {
@@ -187,9 +195,7 @@ h2 {
   margin-bottom: 50px;
 }
 
-.franquicias__section {
-  margin-top: 7rem;
-  margin-bottom: 30rem;
+.titulo__h3 {
   background-color: rgba(255, 255, 255, 0.5);
-  padding: 30px;
+  margin: 10px;
 }/*# sourceMappingURL=main.css.map */

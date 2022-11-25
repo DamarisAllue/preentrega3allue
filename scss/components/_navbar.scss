@@ -1,23 +1,23 @@
-.navbar-dark {
-    .navbar-brand {
-        color: $transparente2;
-        transition-duration: 1s;
-        text-shadow: 0 0 15px $transparente, 0 0 10px $transparente;
 
-        &:hover {
-            transition-duration: 50ms;
-            text-shadow: 0 0 5px #FFF, 0 0 10px #FFF, 0 0 15px #FFF, 0 0 20px magenta, 0 0 30px magenta, 0 0 40px magenta, 0 0 55px magenta, 0 0 75px magenta;
-        }
-    }
-
-    .navbar-nav .nav-link {
-        color: $transparente2;
-        transition-duration: 1s;
-        text-shadow: 0 0 15px $transparente, 0 0 10px $transparente;
-
-        &:hover {
-            transition-duration: 50ms;
-            text-shadow: 0 0 5px #FFF, 0 0 10px #FFF, 0 0 15px #FFF, 0 0 20px magenta, 0 0 30px magenta, 0 0 40px magenta, 0 0 55px magenta, 0 0 75px magenta;
-        }
-    }
-}
+.navbar-dark .navbar-brand {
+    color: rgba(255, 255, 255, 0.3);
+    transition-duration: 1s;
+    text-shadow: 0 0 15px rgba(255, 255, 255, 0.5), 0 0 10px rgba(255, 255, 255, 0.5);
+  }
+  
+  .navbar-dark .navbar-brand:hover {
+    transition-duration: 50ms;
+    text-shadow: 0 0 5px #FFF, 0 0 10px #FFF, 0 0 15px #FFF, 0 0 20px magenta, 0 0 30px magenta, 0 0 40px magenta, 0 0 55px magenta, 0 0 75px magenta;
+  }
+  
+  .navbar-dark .navbar-nav .nav-link {
+    color: rgba(255, 255, 255, 0.3);
+    transition-duration: 1s;
+    text-shadow: 0 0 15px rgba(255, 255, 255, 0.5), 0 0 10px rgba(255, 255, 255, 0.5);
+  }
+  
+  .navbar-dark .navbar-nav .nav-link:hover {
+    transition-duration: 50ms;
+    text-shadow: 0 0 5px #FFF, 0 0 10px #FFF, 0 0 15px #FFF, 0 0 20px magenta, 0 0 30px magenta, 0 0 40px magenta, 0 0 55px magenta, 0 0 75px magenta;
+  }
+  

@@ -16,24 +16,22 @@ footer {
         justify-content: space-between;
         margin: 10px;
     }
-
+    &__item1 {
+        color: $color-oscuro;
+    }
+    &__item2 {
+        color: $color-oscuro;
+    }
+    &__item3 {
+        color: $color-oscuro;
+    }
     &__item1:hover {
-        color: brown;
+        color: $rosa;
     }
-
     &__item2:hover {
-        color: brown;
+        color: $rosa;
     }
-
     &__item3:hover {
-        color: brown;
-    }
-
-    &__item4:hover {
-        color: brown;
-    }
-
-    &__item5:hover {
-        color: brown;
+        color: $rosa;
     }
 }
